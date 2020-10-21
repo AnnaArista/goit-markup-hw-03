@@ -1,0 +1,244 @@
+:root {
+  --text-color: #757575;
+  --headers-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --gray-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--accent-color);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: var(--white-text-color);
+}
+
+/* Навигация */
+.nav-item {
+  color: var(--headers-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-item:hover {
+  color: var(--accent-color);
+}
+.nav-item:focus {
+  color: var(--accent-color);
+}
+
+.nav-contacts-item {
+  color: var(--text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-contacts-item:hover {
+  color: var(--accent-color);
+}
+
+.nav-contacts-item:focus {
+  color: var(--accent-color);
+}
+
+/* Убираем маркеры у списков */
+.list {
+  list-style-type: none;
+}
+
+/* Убираем подчеркивания у ссылок */
+.link {
+  text-decoration: none;
+}
+
+.hero-title {
+  color: var(--white-text-color);
+  /* Временный фон для видимости */
+  background-color: var(--dark-background-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.88;
+  font-size: 16px;
+}
+
+/* Временно, чтобы скрыть ненужные заголовки */
+.title-hidden {
+  color: var(--white-text-color);
+}
+
+.features-title {
+  color: var(--headers-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.services-title {
+  color: var(--headers-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--gray-background-color);
+}
+
+.team-title {
+  color: var(--headers-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-member-name {
+  color: var(--headers-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-members-list p {
+  line-height: 1.19x;
+}
+
+.footer-section {
+  background-color: var(--dark-background-color);
+}
+
+.address p {
+  color: var(--white-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address-email {
+  color: var(--text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address-email:hover {
+  color: var(--accent-color);
+}
+
+.address-email:focus {
+  color: var(--accent-color);
+}
+
+.address-phone {
+  color: var(--text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address-phone:hover {
+  color: var(--accent-color);
+}
+.address-phone:focus {
+  color: var(--accent-color);
+}
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ PORTFOLIO */
+
+.work-type-item {
+  color: var(--headers-color);
+  background-color: var(--gray-background-color);
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63px;
+  letter-spacing: 0.03em;
+
+  border: none;
+}
+
+.work-type-item:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.work-type-item:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.works-item-title {
+  color: var(--headers-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-item p {
+  color: var(--text-color);
+}
+
+.works-list a {
+  font-family: "Roboto", sans-serif;
+}
